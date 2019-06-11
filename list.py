@@ -1,4 +1,5 @@
-def welcome(a,b):
-    return a+b
-sum = welcome(10,20)
-print(sum)
+l = [1,"Musleh",3.25]
+print(l)
+l.append("Uddin")
+l.pop(2)
+print(l)
