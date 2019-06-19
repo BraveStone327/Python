@@ -40,3 +40,13 @@ print("I love programming".center(40,"#"))
 st = "I love programming"
 print(st.ljust(40,"*"))
 print(st.rjust(40,"$"))
+
+#r ignore hex
+
+String1 = "|{:<10}|{:^10}|{:>10}|".format('Geeks','for','Geeks') 
+print("\nLeft, center and right alignment with Formatting: ") 
+print(String1)
+
+string = "geeks for geeks geeks geeks geeks"
+print(string.replace("geeks","Geeks"))
+print(string.replace("geeks","Geeks",3))
